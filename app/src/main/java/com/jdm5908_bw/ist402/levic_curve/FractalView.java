@@ -24,7 +24,7 @@ public class FractalView extends View{
         y1 = canvas.getHeight() / 4;
         x2 = canvas.getWidth() - x1;
         y2 = y1;
-        canvas.drawColor(Color.WHITE); // Background
+        canvas.drawColor(Color.BLACK); // Background
         fractal.drawCCurve(canvas, x1, y1, x2, y2, level);
     }
 }

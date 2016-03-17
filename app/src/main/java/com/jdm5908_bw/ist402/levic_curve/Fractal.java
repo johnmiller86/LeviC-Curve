@@ -9,7 +9,7 @@ public class Fractal {
 
         Paint paint = new Paint();
         paint.setColor(MainActivity.colorDrawable.getColor());
-        paint.setStrokeWidth(4);
+        paint.setStrokeWidth(1);
         if (level == 0){
             canvas.drawLine(x1, y1, x2, y2, paint);
         }
